@@ -1,0 +1,41 @@
+@import "navbar.scss";
+@import "imagenes";
+@import "presentacion";
+@import "var-colores";
+@import "Var-fonts";
+
+.titulos {
+    color: black;
+    font-size: 2em;
+    font-family: $font-textos;
+    font-weight:100;
+    text-align: center;
+    text-decoration: none;
+    background-color: $Color-2;
+    width: 100%;
+    padding: 10px;
+}
+
+.subtitulos {
+    color: black;
+    font-size: 2em;
+    font-family: $font-textos;
+    font-weight:100;
+    text-align: center;
+    text-decoration: none;
+    background-color: $Color-3;
+    width: 100%;
+    padding: 10px;
+}   
+
+.subtitulos2 {
+    color: $Color-2;
+    font-size: 2em;
+    font-family: $font-textos;
+    font-weight:100;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+}
+
